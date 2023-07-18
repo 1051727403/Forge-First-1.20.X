@@ -18,7 +18,7 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE=registerItem("sapphire",
             ()->new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> ROW_SAPPHIRE=registerItem("row_sapphire",
+    public static final RegistryObject<Item> RAW_SAPPHIRE=registerItem("raw_sapphire",
             ()->new Item(new Item.Properties()));
 
 

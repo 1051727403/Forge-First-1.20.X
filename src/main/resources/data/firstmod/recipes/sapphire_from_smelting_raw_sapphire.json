@@ -5,7 +5,7 @@
   "experience": 0.7,
   "group": "sapphire",
   "ingredient": {
-    "item": "firstmod:row_sapphire"
+    "item": "firstmod:raw_sapphire"
   },
   "result": "firstmod:sapphire"
 }

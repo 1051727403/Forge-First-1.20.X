@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "firstmod:row_sapphire_ore"
+              "name": "firstmod:raw_sapphire_ore"
             },
             {
               "type": "minecraft:item",
@@ -46,5 +46,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "firstmod:blocks/row_sapphire_ore"
+  "random_sequence": "firstmod:blocks/raw_sapphire_ore"
 }

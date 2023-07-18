@@ -1,8 +1,8 @@
 {
   "item.firstmod.sapphire": "蓝宝石",
-  "item.firstmod.row_sapphire": "蓝宝石粗矿石",
+  "item.firstmod.raw_sapphire": "蓝宝石粗矿石",
   "block.firstmod.sapphire_block": "蓝宝石块",
-  "block.firstmod.row_sapphire_ore": "蓝宝石粗矿",
+  "block.firstmod.raw_sapphire_ore": "蓝宝石粗矿",
 
   "creativetab.firstmod_tab": "Sapphire Firstmod Tab"
 }

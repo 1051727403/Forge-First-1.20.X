@@ -20,8 +20,8 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("蓝宝石选项卡"))
                     //设置物品展示顺序
                     .displayItems((pParameters,pOutput)->{
-                        pOutput.accept(ModItems.ROW_SAPPHIRE.get());
-                        pOutput.accept(ModBlocks.ROW_SAPPHIRE_ORE.get());
+                        pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_ORE.get());
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                     })

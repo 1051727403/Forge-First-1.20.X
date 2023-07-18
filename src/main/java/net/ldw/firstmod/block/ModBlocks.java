@@ -26,7 +26,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> SAPPHIRE_BLOCK=registerBlock("sapphire_block",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).destroyTime(1.0F)));
 
-    public static final RegistryObject<Block> ROW_SAPPHIRE_ORE=registerBlock("row_sapphire_ore",
+    public static final RegistryObject<Block> RAW_SAPPHIRE_ORE=registerBlock("raw_sapphire_ore",
             ()->new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
                     .strength(2f).requiresCorrectToolForDrops(),UniformInt.of(2,4)));
 
