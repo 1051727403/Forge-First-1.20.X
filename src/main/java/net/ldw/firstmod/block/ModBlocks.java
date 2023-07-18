@@ -3,10 +3,12 @@ package net.ldw.firstmod.block;
 import net.ldw.firstmod.FirstMod;
 import net.ldw.firstmod.item.ModItems;
 import net.minecraft.client.tutorial.Tutorial;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,9 +24,11 @@ public class ModBlocks {
 
     //方块
     public static final RegistryObject<Block> SAPPHIRE_BLOCK=registerBlock("sapphire_block",
-            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST).destroyTime(1.0F)));
 
-
+    public static final RegistryObject<Block> ROW_SAPPHIRE_ORE=registerBlock("row_sapphire_ore",
+            ()->new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .strength(2f).requiresCorrectToolForDrops(),UniformInt.of(2,4)));
 
 
     //注册方块
